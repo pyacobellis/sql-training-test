@@ -1,8 +1,7 @@
 # SQL Training – Setup Test
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/OWNER/REPO)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pyacobellis/sql-training-test)
 
-<!-- TRAINER: replace OWNER/REPO in the link above with your GitHub username and repository name, e.g. https://codespaces.new/jane-doe/sql-training-test -->
 
 This small test checks that everything you need for the SQL course works from your computer and network. It takes about 5 minutes.
 
@@ -32,5 +31,4 @@ Codespaces gives you a limited number of free hours per month. Please **stop or 
 
 ### For the trainer
 
-- Replace `OWNER/REPO` in the badge link at the top of this file.
 - Rebuild the data/database: `python generate_data.py && python build_db.py` (needs `pip install -r requirements.txt`).
