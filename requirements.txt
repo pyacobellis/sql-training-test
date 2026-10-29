@@ -1,0 +1,4 @@
+duckdb>=1.5,<1.6
+jupysql
+pandas
+ipykernel

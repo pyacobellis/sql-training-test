@@ -1,0 +1,13 @@
+facility_id,facility_name,facility_type,region,bed_capacity
+1,Fictional Hospital 01,Hospital,North Example,40
+2,Fictional Hospital 02,Hospital,East Example,80
+3,Fictional Hospital 03,Hospital,South Example,80
+4,Fictional Hospital 04,Hospital,North Example,40
+5,Fictional Clinic 05,Clinic,West Example,40
+6,Fictional Day Centre 06,Day Centre,North Example,40
+7,Fictional Hospital 07,Hospital,South Example,80
+8,Fictional Clinic 08,Clinic,North Example,80
+9,Fictional Day Centre 09,Day Centre,West Example,80
+10,Fictional Hospital 10,Hospital,West Example,120
+11,Fictional Clinic 11,Clinic,North Example,80
+12,Fictional Day Centre 12,Day Centre,West Example,120

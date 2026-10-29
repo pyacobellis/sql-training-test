@@ -1,0 +1,13 @@
+diagnosis_code,description,category
+D01,Synthetic respiratory condition A,Respiratory
+D02,Synthetic respiratory condition B,Respiratory
+D03,Synthetic cardiac condition A,Cardiac
+D04,Synthetic cardiac condition B,Cardiac
+D05,Synthetic cardiac condition C,Cardiac
+D06,Synthetic injury A,Injury
+D07,Synthetic injury B,Injury
+D08,Synthetic digestive condition A,Digestive
+D09,Synthetic digestive condition B,Digestive
+D10,Synthetic metabolic condition A,Metabolic
+D11,Synthetic metabolic condition B,Metabolic
+D12,Synthetic mental health condition A,Mental Health
