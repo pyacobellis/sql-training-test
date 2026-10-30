@@ -11,7 +11,11 @@ This small test checks that everything you need for the SQL course works from yo
 2. **Click the "Open in GitHub Codespaces" button above.** If GitHub asks, click **Create new codespace**.
 3. **Wait 2–3 minutes** while the environment builds (see *What's happening during setup* below). A web version of VS Code opens in your browser when it's ready.
 4. In the file list on the left, **double-click `00_setup_check.ipynb`** to open the notebook.
-5. Click **Run All** at the top of the notebook. The first time, a box asks you to choose a kernel: click **Python Environments**, then the option marked **Recommended**.
+5. Click **Run All** at the top of the notebook. The first time, a box asks you to choose a kernel:
+   - click **Python Environments**
+   - then click **Python 3.12** (the line ending in `/usr/local/bin/python`, marked *Global Env*).
+
+   Don't choose "Create Python Environment" or Python 3.13; those won't work.
 6. If every cell shows a result and none shows a red error, **you're ready**. Tell your trainer it worked.
 
 ## What's happening during setup
@@ -26,7 +30,7 @@ All data in this repository is **entirely synthetic**. Patients, facilities and 
 
 - **The notebook opens as a page of code-like text:** close that tab and double-click `00_setup_check.ipynb` again.
 - **The build fails or shows an error:** click **Rebuild Container** in the error message (or press `F1` and search for "Codespaces: Rebuild Container"). If it fails again, send your trainer a screenshot.
-- **No "Recommended" option when choosing a kernel:** choose the one that mentions Python 3.12. Then click **Run All** again.
+- **"Failed to create virtual environment" or "No module named duckdb":** you picked the wrong kernel. Click the kernel name at the top right of the notebook, choose **Python Environments** → **Python 3.12** (`/usr/local/bin/python`), then click **Run All** again.
 - **The page is blocked or won't load:** your company network may be blocking GitHub or Codespaces. Take a screenshot of what you see and send it to your trainer – that is exactly what this test is for.
 
 ## When you're done
