@@ -18,11 +18,6 @@
           "*.ipynb": "jupyter-notebook"
         }
       }
-    },
-    "codespaces": {
-      "openFiles": [
-        "00_setup_check.ipynb"
-      ]
     }
   }
 }
