@@ -7,7 +7,7 @@ This small test checks that everything you need for the SQL course works from yo
 
 ## Steps
 
-1. **Create a free personal GitHub account** at <https://github.com/signup> (skip if you already have one). Use a personal email, not a work one.
+1. **Create a free GitHub account** at <https://github.com/signup> (skip if you already have one). You can use any email address, work or personal.
 2. **Click the "Open in GitHub Codespaces" button above.** If GitHub asks, click **Create new codespace**.
 3. **Wait 1–2 minutes** while the environment builds. A web version of VS Code opens in your browser.
 4. A notebook called **`00_setup_check.ipynb`** opens automatically. Click **Run All** at the top of the notebook (or press the ▷▷ button).
