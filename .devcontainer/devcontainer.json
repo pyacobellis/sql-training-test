@@ -13,7 +13,10 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python"
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "workbench.editorAssociations": {
+          "*.ipynb": "jupyter-notebook"
+        }
       }
     },
     "codespaces": {

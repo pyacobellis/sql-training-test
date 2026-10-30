@@ -23,6 +23,7 @@ All data in this repository is **entirely synthetic**. Patients, facilities and 
 
 ## Troubleshooting
 
+- **The notebook opens as a page of code-like text:** close that tab, then double-click `00_setup_check.ipynb` in the file list on the left.
 - **The build fails or shows an error:** click **Rebuild Container** in the error message (or press `F1` and search for "Codespaces: Rebuild Container"). If it fails again, send your trainer a screenshot.
 - **The notebook asks you to select a kernel:** click **Select Kernel** (top right) → **Python Environments** → choose the entry marked `/usr/local/bin/python`. Then click **Run All** again.
 - **The page is blocked or won't load:** your company network may be blocking GitHub or Codespaces. Take a screenshot of what you see and send it to your trainer – that is exactly what this test is for.
