@@ -15,13 +15,7 @@ This small test checks that everything you need for the SQL course works from yo
 
 ## What's happening during setup
 
-A codespace is a small computer in the cloud, run by GitHub, that you use through VS Code in your browser. Nothing is installed on your own computer. The first time you open it:
-
-1. GitHub starts the machine and copies this project onto it (about 1 minute).
-2. It installs the tools the course needs: DuckDB and the Jupyter notebook support (about 1 minute). You may see a progress log while this runs. Leave the tab open and wait.
-3. VS Code opens with the notebook ready to run.
-
-If you reopen the same codespace later, it starts in a few seconds because everything is already installed.
+Everything runs in your web browser, and nothing is installed on your computer. The first time takes 2–3 minutes while it gets ready. You may see some scrolling text; just leave the tab open and wait for the notebook to appear.
 
 ## About the data
 
