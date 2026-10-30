@@ -4,7 +4,8 @@
   "hostRequirements": {
     "cpus": 2
   },
-  "postCreateCommand": "pip install -r requirements.txt",
+  "updateContentCommand": "pip install -r requirements.txt",
+  "waitFor": "updateContentCommand",
   "customizations": {
     "vscode": {
       "extensions": [
