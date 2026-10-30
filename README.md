@@ -9,9 +9,19 @@ This small test checks that everything you need for the SQL course works from yo
 
 1. **Create a free GitHub account** at <https://github.com/signup> (skip if you already have one). You can use any email address, work or personal.
 2. **Click the "Open in GitHub Codespaces" button above.** If GitHub asks, click **Create new codespace**.
-3. **Wait 1–2 minutes** while the environment builds. A web version of VS Code opens in your browser.
+3. **Wait 2–3 minutes** while the environment builds (see *What's happening during setup* below). A web version of VS Code opens in your browser when it's ready.
 4. A notebook called **`00_setup_check.ipynb`** opens automatically. Click **Run All** at the top of the notebook (or press the ▷▷ button).
 5. If every cell shows a result and none shows a red error, **you're ready**. Tell your trainer it worked.
+
+## What's happening during setup
+
+A codespace is a small computer in the cloud, run by GitHub, that you use through VS Code in your browser. Nothing is installed on your own computer. The first time you open it:
+
+1. GitHub starts the machine and copies this project onto it (about 1 minute).
+2. It installs the tools the course needs: DuckDB and the Jupyter notebook support (about 1 minute). You may see a progress log while this runs. Leave the tab open and wait.
+3. VS Code opens with the notebook ready to run.
+
+If you reopen the same codespace later, it starts in a few seconds because everything is already installed.
 
 ## About the data
 
